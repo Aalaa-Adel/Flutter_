@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_one/start_screan.dart';
+import 'package:task_one/start_screen.dart';
 
 void main() {
   runApp(
@@ -16,7 +16,7 @@ void main() {
               end: Alignment.bottomRight,
             ),
           ),
-          child: const StartScrean(),
+          child: const StartScreen(),
         ),
       ),
     ),
