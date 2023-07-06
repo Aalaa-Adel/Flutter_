@@ -35,6 +35,7 @@ class StartScreen extends StatelessWidget {
           Image.asset('assets/images/post_1.jpg'),
           const SizedBox(height: 10),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               OutlinedButton.icon(
                 onPressed: () {},
@@ -49,7 +50,7 @@ class StartScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 10),
                 ),
               ),
-              const SizedBox(width: 31),
+              // const SizedBox(width: 31),
               OutlinedButton.icon(
                 onPressed: () {},
                 style:
@@ -60,7 +61,7 @@ class StartScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 10),
                 ),
               ),
-              const SizedBox(width: 31),
+              //  const SizedBox(width: 31),
               OutlinedButton.icon(
                 onPressed: () {},
                 style:
